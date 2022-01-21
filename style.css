@@ -1,0 +1,64 @@
+body {
+  /* background-color: #221157; */
+  /* background-color: #14665b; */
+  background-color: #fef5dc;
+  /* background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 20px;
+}
+.project-body-wrapper {
+  background-color: rgb(127, 199, 181);
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+.title {
+  font-weight: bold;
+  color: rgb(46, 122, 103);
+  text-align: center;
+  font-size: 3rem;
+}
+
+.project-title {
+  font-weight: bold;
+  color: rgb(5, 36, 28);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.project-img {
+  height: 200px;
+  width: 400px;
+}
+
+.other-link-btn {
+  text-decoration: none;
+}
+
+.links button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+
+.socials {
+  background-color: rgb(127, 199, 181);
+}
+
+.about-text {
+  font-size: 16px;
+}
+
+canvas {
+  margin: 10px auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.action-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.action-btn button {
+  margin-left: 10px;
+  margin-right: 10px;
+}

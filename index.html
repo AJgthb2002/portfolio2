@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Ananya's Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Import the webpage's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Title -->
+      <h1 class="title">Hello, I am Ananya!</h1>
+      <div class="grid grid-cols-2">
+        <!-- Social Media Links -->
+
+        <div class="flex flex-col h-screen bg-center bg-cover bg-no-repeat">
+          <div
+            class="grid place-items-center mx-auto p-20 sm:my-auto socials rounded-3xl space-y-10"
+          >
+            <h1 class="text-3xl font-semibold text-black">Connect with me!</h1>
+            <div class="flex items-center justify-center space-x-3">
+              <button
+                class="bg-blue-500 px-6 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+              >
+                <a href="https://linkedin.com/in/ananya-a-joshi" target="_blank"
+                  ><i class="devicon-linkedin-plain"></i> LinkedIn
+                </a>
+              </button>
+              <button
+                class="bg-black px-6 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+              >
+                <a href="https://github.com/AJgthb2002" target="_blank"
+                  ><i class="devicon-github-original"></i> GitHub
+                </a>
+              </button>
+              <button
+                class="bg-red-500 px-6 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+              >
+                <a href="mailto:joshiananya20@gmail.com" target="_blank">
+                  Email
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Illustration -->
+        <div>
+          <img
+            src="images/MyAvatar.gif"
+            class="illustration"
+            alt="Editor illustration"
+            title="Click the image!"
+          />
+        </div>
+      </div>
+
+      <!-- About Me section-->
+      <div class="flex justify-center">
+        <div class="max-w-3xl py-4 px-8 bg-white shadow-lg rounded-lg my-5">
+          <div class="flex justify-center md:justify-end -mt-16">
+            <img
+              class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
+              src="images/circle-avatar.png"
+            />
+          </div>
+          <div>
+            <h2 class="text-gray-800 text-3xl font-semibold">About Me</h2>
+            <p class="mt-5 text-gray-600 about-text">
+              I am a Computer Engineer undergraduate, currently in my pre-final
+              year at Cummins College of Engineering for Women, Pune. I am an
+              enthusiastic coder, an avid reader as well as a digital artist who
+              enjoys solving problems through innovative ways! <br />
+              Being skilled in front-end web technologies, I am currently diving
+              into full-stack development. <br />
+              Apart from that, Data Science and Analysis also interests me! I am
+              a self-motivated and lifelong learner, always eager to gain
+              knowledge. <br />Being creative and observant, I am looking
+              forward to explore various opportunities, get more exposure and
+              experience.
+            </p>
+          </div>
+          <div class="flex justify-center mt-4">
+            <div class="links">
+              <button
+                class="flex shadow w-32 block border-green-600 border-2 rounded-full focus:outline-none focus:border-green-600 px-4 py-2 text-green-600 hover:bg-green-600 hover:text-white"
+              >
+                <a class="other-link-btn" href="projects.html"> MY PROJECTS</a>
+              </button>
+
+              <button
+                class="flex shadow w-50 block border-green-600 border-2 rounded-full focus:outline-none focus:border-green-600 px-8 py-5 text-green-600 hover:bg-green-600 hover:text-white"
+              >
+                <a class="other-link-btn" href="#"> WORK EXPERIENCE </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-20">
+        <h1 class="text-3xl text-center font-bold text-black">
+          My Achievements
+        </h1>
+        <div class="border-l-2 mt-10">
+          <!-- Card 1 -->
+          <div
+            class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0"
+          >
+            <!-- Dot Follwing the Left Vertical Line -->
+            <div
+              class="w-5 h-5 bg-blue-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"
+            ></div>
+
+            <!-- Line that connecting the box with the vertical line -->
+            <div class="w-10 h-1 bg-blue-300 absolute -left-10 z-0"></div>
+
+            <!-- Content that showing in the box -->
+            <div class="flex-auto">
+              <h1 class="text-lg">Jan 2022</h1>
+              <h1 class="text-lg font-bold">
+                Selected among top 40 candidates for the GDC Fellowship by AICTE
+              </h1>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-red-500 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0"
+          >
+            <!-- Dot Follwing the Left Vertical Line -->
+            <div
+              class="w-5 h-5 bg-red-500 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"
+            ></div>
+
+            <!-- Line that connecting the box with the vertical line -->
+            <div class="w-10 h-1 bg-red-500 absolute -left-10 z-0"></div>
+
+            <!-- Content that showing in the box -->
+            <div class="flex-auto">
+              <h1 class="text-lg">Dec 2021</h1>
+              <h1 class="text-lg font-bold">
+                Winner of Data Analytics competition held by AICVS Cummins
+                (College club for ML enthusiasts)
+              </h1>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-green-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0"
+          >
+            <!-- Dot Follwing the Left Vertical Line -->
+            <div
+              class="w-5 h-5 bg-green-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"
+            ></div>
+
+            <!-- Line that connecting the box with the vertical line -->
+            <div class="w-10 h-1 bg-green-300 absolute -left-10 z-0"></div>
+
+            <!-- Content that showing in the box -->
+            <div class="flex-auto">
+              <h1 class="text-lg">Nov 2021</h1>
+              <h1 class="text-lg font-bold">
+                Completed Hacktoberfest 2021 successfully with 7 PRs merged in
+                Algorithms and web development projects
+              </h1>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-purple-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0"
+          >
+            <!-- Dot Follwing the Left Vertical Line -->
+            <div
+              class="w-5 h-5 bg-purple-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"
+            ></div>
+
+            <!-- Line that connecting the box with the vertical line -->
+            <div class="w-10 h-1 bg-purple-300 absolute -left-10 z-0"></div>
+
+            <!-- Content that showing in the box -->
+            <div class="flex-auto">
+              <h1 class="text-lg">Oct 2021</h1>
+              <h1 class="text-lg font-bold">
+                Completed ‘30 Days of Google Cloud’ program and earned 11 skill
+                badges of Cloud Engineering, Data Science and Machine Learning
+                tracks
+              </h1>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-yellow-600 text-white rounded mb-10 flex-col md:flex-row"
+          >
+            <!-- Dot Follwing the Left Vertical Line -->
+            <div
+              class="w-5 h-5 bg-yellow-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 -mt-2 md:mt-0"
+            ></div>
+
+            <!-- Line that connecting the box with the vertical line -->
+            <div class="w-10 h-1 bg-yellow-300 absolute -left-10 z-0"></div>
+
+            <!-- Content that showing in the box -->
+            <div class="flex-auto">
+              <h1 class="text-lg">June 2021</h1>
+              <h1 class="text-lg font-bold">
+                Selected for the Microsoft Engage Mentorship Program
+              </h1>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div
+            class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-pink-600 text-white rounded mb-10 flex-col md:flex-row"
+          >
+            <!-- Dot Follwing the Left Vertical Line -->
+            <div
+              class="w-5 h-5 bg-pink-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 -mt-2 md:mt-0"
+            ></div>
+
+            <!-- Line that connecting the box with the vertical line -->
+            <div class="w-10 h-1 bg-pink-600 absolute -left-10 z-0"></div>
+
+            <!-- Content that showing in the box -->
+            <div class="flex-auto">
+              <h1 class="text-lg">Apr 2021</h1>
+              <h1 class="text-lg font-bold">
+                Selected among top 40 women nationally for LinkedIn CoachIn 2021
+                - software engineering mentorship program
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
